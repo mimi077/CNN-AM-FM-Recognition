@@ -26,7 +26,6 @@ app = Flask(__name__)
 scaler = None
 clf = None
 cnn_model = None
-label_encoder = None
 MODEL_TRAINED = False
 
 def generate_signal(freq=1, duration=1, fs=1000):
