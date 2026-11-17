@@ -498,5 +498,5 @@ if __name__ == '__main__':
     print(f"\nModel trained successfully!")
     print(f"Accuracy: {accuracy:.4f}")
     print(f"Model Type: {'CNN' if USE_CNN else 'SVM'}")
-    print("\nStarting Flask server...")
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    print("\nStarting Flask server (threaded mode)...")
+    app.run(host='0.0.0.0', port=5000, debug=False, threaded=True)
