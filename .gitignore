@@ -22,5 +22,7 @@ Thumbs.db
 
 # Project specific
 tunnel.log
+tunnel_output.txt
+*.log
 *.pth
 cnn_modulation_model.pth
